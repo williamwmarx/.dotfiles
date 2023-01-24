@@ -1,0 +1,229 @@
+[
+	{
+		"name": "bat",
+		"description": "A cat clone with wings.",
+		"homepage": "https://github.com/sharkdp/bat",
+		"aptName": "bat",
+		"brewName": "bat",
+		"dnfName": "bat",
+		"pacmanName": "bat"
+	},
+	{
+		"name": "cURL",
+		"description": "A command line tool for transferring data with URL syntax.",
+		"homepage": "https://curl.se/",
+		"aptName": "curl",
+		"brewName": "curl",
+		"dnfName": "curl",
+		"pacmanName": "curl"
+	},
+	{
+		"name": "exa",
+		"description": "A modern replacement for ls.",
+		"homepage": "https://the.exa.website/",
+		"aptName": "exa",
+		"brewName": "exa",
+		"dnfName": "exa",
+		"pacmanName": "exa"
+	},
+	{
+		"name": "fd",
+		"description": "A simple, fast and user-friendly alternative to find.",
+		"homepage": "https://github.com/sharkdp/fd",
+		"aptName": "fd-find",
+		"brewName": "fd",
+		"dnfName": "fd-find",
+		"pacmanName": "fd"
+	},
+	{
+		"name": "fzf",
+		"description": "A command-line fuzzy finder.",
+		"homepage": "https://github.com/junegunn/fzf",
+		"aptName": "fzf",
+		"brewName": "fzf",
+		"dnfName": "fzf",
+		"pacmanName": "fzf"
+	},
+	{
+		"name": "git",
+		"homepage": "https://git-scm.com/",
+		"aptName": "git",
+		"brewName": "git",
+		"dnfName": "git",
+		"pacmanName": "git"
+	},
+	{
+		"name": "GnuPG",
+		"description": "A complete and free implementation of the OpenPGP standard.",
+		"homepage": "https://gnupg.org/",
+		"aptName": "gnupg",
+		"brewName": "gnupg",
+		"dnfName": "gnupg",
+		"pacmanName": "gnupg"
+	},
+	{
+		"name": "Node",
+		"description": "A JavaScript runtime built on Chrome's V8 JavaScript engine.",
+		"homepage": "https://nodejs.org/",
+		"aptName": "nodejs",
+		"brewName": "node",
+		"dnfName": "nodejs",
+		"pacmanName": "nodejs"
+	},
+	{
+		"name": "OhMyZsh",
+		"description": "A delightful community-driven framework for managing your zsh configuration.",
+		"homepage": "https://ohmyz.sh/",
+		"requires": [
+			"Zsh"
+		],
+		"install_command": "sh <(curl https://install.erdos.one/ohmyzsh) --unattended"
+	},
+	{
+		"name": "OpenSSL",
+		"description": "A robust, commercial-grade, and full-featured toolkit for the Transport Layer Security (TLS) and Secure Sockets Layer (SSL) protocols.",
+		"homepage": "https://www.openssl.org/",
+		"aptName": "openssl",
+		"brewName": "openssl",
+		"dnfName": "openssl",
+		"pacmanName": "openssl"
+	},
+	{
+		"name": "ripgrep",
+		"description": "A line-oriented search tool that recursively searches your current directory for a regex pattern.",
+		"homepage": "https://github.com/BurntSushi/ripgrep",
+		"aptName": "ripgrep",
+		"brewName": "ripgrep",
+		"dnfName": "ripgrep",
+		"pacmanName": "ripgrep"
+	},
+	{
+		"name": "tmux",
+		"description": "A terminal multiplexer.",
+		"homepage": "https://github.com/tmux/tmux",
+		"aptName": "tmux",
+		"brewName": "tmux",
+		"dnfName": "tmux",
+		"pacmanName": "tmux"
+	},
+	{
+		"name": "Vim",
+		"description": "A highly configurable text editor built to enable efficient text editing.",
+		"homepage": "https://www.vim.org/",
+		"aptName": "vim",
+		"brewName": "vim",
+		"dnfName": "vim",
+		"pacmanName": "vim"
+	},
+	{
+		"name": "Zsh",
+		"description": "A shell designed for interactive use, although it is also a powerful scripting language.",
+		"homepage": "https://www.zsh.org/",
+		"aptName": "zsh",
+		"brewName": "zsh",
+		"dnfName": "zsh",
+		"pacmanName": "zsh"
+	},
+	{
+		"name": "FFmpeg",
+		"description": "A complete, cross-platform solution to record, convert and stream audio and video.",
+		"homepage": "https://ffmpeg.org/",
+		"aptName": "ffmpeg",
+		"brewName": "ffmpeg",
+		"dnfName": "ffmpeg-free",
+		"pacmanName": "ffmpeg"
+	},
+	{
+		"name": "ImageMagick",
+		"description": "A software suite to create, edit, compose, or convert bitmap images.",
+		"homepage": "https://imagemagick.org/",
+		"aptName": "imagemagick",
+		"brewName": "imagemagick",
+		"dnfName": "ImageMagick",
+		"pacmanName": "imagemagick"
+	},
+	{
+		"name": "Clean My Mac",
+		"description": "A macOS app to clean up your Mac.",
+		"homepage": "https://macpaw.com/cleanmymac",
+		"brewCaskName": "cleanmymac"
+	},
+	{
+		"name": "Dropbox",
+		"description": "A file hosting service that offers cloud storage, file synchronization, personal cloud.",
+		"homepage": "https://www.dropbox.com/",
+		"brewCaskName": "dropbox"
+	},
+	{
+		"name": "Docker Desktop",
+		"description": "A desktop app for MacOS and Windows machines for the building and sharing of containerized applications and microservices.",
+		"homepage": "https://www.docker.com/products/docker-desktop",
+		"brewCaskName": "docker"
+	},
+	{
+		"name": "IINA",
+		"description": "The modern video player for macOS.",
+		"homepage": "https://iina.io/",
+		"brewCaskName": "iina"
+	},
+	{
+		"name": "iTerm2",
+		"description": "A terminal emulator for macOS that does amazing things.",
+		"homepage": "https://iterm2.com/",
+		"brewCaskName": "iterm2"
+	},
+	{
+		"name": "Little Snitch",
+		"description": "A firewall application for macOS that monitors outgoing network connections and allows or denies them.",
+		"homepage": "https://www.obdev.at/products/littlesnitch/index.html",
+		"brewCaskName": "little-snitch"
+	},
+	{
+		"name": "Mullvad VPN",
+		"description": "A VPN service that helps keep your online activity, identity, and location private.",
+		"homepage": "https://mullvad.net/en/",
+		"brewCaskName": "mullvadvpn"
+	},
+	{
+		"name": "Parallels Desktop",
+		"description": "A software for running Windows, Linux, or any other operating system on a Mac without rebooting.",
+		"homepage": "https://www.parallels.com/products/desktop/",
+		"brewCaskName": "parallels"
+	},
+	{
+		"name": "Raycast",
+		"description": "A smart command line productivity tool for macOS.",
+		"homepage": "https://raycast.com/",
+		"brewCaskName": "raycast"
+	},
+	{
+		"name": "Zoom",
+		"description": "A video conferencing, online chat, and web conferencing software.",
+		"homepage": "https://zoom.us/",
+		"brewCaskName": "zoomus"
+	},
+	{
+		"name": "Adobe Creative Cloud",
+		"description": "A collection of desktop and mobile apps and services for photography, design, video, web, UX and more.",
+		"homepage": "https://www.adobe.com/creativecloud.html",
+		"brewCaskName": "adobe-creative-cloud"
+	},
+	{
+		"name": "Glyphs",
+		"description": "A powerful font editor for macOS.",
+		"homepage": "https://glyphsapp.com/",
+		"brewCaskName": "glyphs"
+	},
+	{
+		"name": "Rhino 3D",
+		"description": "A 3D modeling software for Windows, macOS, and Linux.",
+		"homepage": "https://www.rhino3d.com/",
+		"brewCaskName": "rhino"
+	},
+	{
+		"name": "Cycling ‘74 Max/MSP",
+		"description": "A visual programming language for music, audio, and multimedia.",
+		"homepage": "https://cycling74.com/products/max/",
+		"brewCaskName": "cycling74-max"
+	}
+]

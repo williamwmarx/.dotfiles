@@ -1,12 +1,3 @@
-#######################
-##   Global config   ##
-#######################
-# Directory to install dotfiles in when --tmp invoked
-tmp_dir = "~/.@repo_name.tmp"
-custom_install_url = "https://marx.sh"
-help_description = "Install my default packages and dotfiles"
-
-
 ####################
 ##    Dotfiles	  ##
 ####################
@@ -153,4 +144,57 @@ tmp_install = [
 	{msg = "Saving .zshrc", cmd = "@save zsh/vanilla_zshrc"},
 	{msg = "Saving .aliases", cmd = "@save zsh/aliases"},
 	{msg = "Saving .functions", cmd = "@save zsh/functions"},
+]
+
+####################
+##    Packages	  ##
+####################
+[Packages.Core]
+description = "Core packages I use daily"
+packages = [
+	"bat",
+	"cURL",
+	"exa",
+	"fd",
+	"fzf",
+	"git",
+	"GnuPG",
+	"Node",
+	"Oh My Zsh",
+	"OpenSSL",
+	"ripgrep",
+	"tmux",
+	"Vim",
+	"Zsh"
+]
+
+[Packages.Design]
+description = "Packages for visual and sound design."
+packages = [
+	"FFmpeg",
+	"ImageMagick"
+]
+
+[Packages."GUI Core"]
+description = "GUI apps I use daily."
+packages = [
+	"Clean My Mac",
+	"Dropbox",
+	"Docker Desktop",
+	"IINA",
+	"iTerm2",
+	"Little Snitch",
+	"Mullvad VPN",
+	"Parallels Desktop",
+	"Raycast",
+	"Zoom"
+]
+
+[Packages."GUI Design"]
+description = "GUI apps for visual and sound design."
+packages = [
+	"Adobe Creative Cloud",
+	"Glyphs",
+	"Rhino 3D",
+	"Cycling ‘74 Max/MSP"
 ]
